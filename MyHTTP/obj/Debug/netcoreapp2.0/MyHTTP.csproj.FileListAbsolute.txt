@@ -1,0 +1,11 @@
+E:\vsproject\MyHTTP\MyHTTP\obj\Debug\netcoreapp2.0\MyHTTP.csprojAssemblyReference.cache
+E:\vsproject\MyHTTP\MyHTTP\obj\Debug\netcoreapp2.0\MyHTTP.csproj.CoreCompileInputs.cache
+E:\vsproject\MyHTTP\MyHTTP\obj\Debug\netcoreapp2.0\MyHTTP.AssemblyInfoInputs.cache
+E:\vsproject\MyHTTP\MyHTTP\obj\Debug\netcoreapp2.0\MyHTTP.AssemblyInfo.cs
+E:\vsproject\MyHTTP\MyHTTP\bin\Debug\netcoreapp2.0\MyHTTP.deps.json
+E:\vsproject\MyHTTP\MyHTTP\bin\Debug\netcoreapp2.0\MyHTTP.runtimeconfig.json
+E:\vsproject\MyHTTP\MyHTTP\bin\Debug\netcoreapp2.0\MyHTTP.runtimeconfig.dev.json
+E:\vsproject\MyHTTP\MyHTTP\bin\Debug\netcoreapp2.0\MyHTTP.dll
+E:\vsproject\MyHTTP\MyHTTP\bin\Debug\netcoreapp2.0\MyHTTP.pdb
+E:\vsproject\MyHTTP\MyHTTP\obj\Debug\netcoreapp2.0\MyHTTP.dll
+E:\vsproject\MyHTTP\MyHTTP\obj\Debug\netcoreapp2.0\MyHTTP.pdb
