@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.InteropServices;
 
 namespace MyHTTP
 {
@@ -13,9 +14,20 @@ namespace MyHTTP
         {
             Console.WriteLine("request: {0}", processor.httpUrl);
             processor.WriteSuccess();
-            using (StreamReader htmlRead = new StreamReader("/www/html/index.html")) //应该使用绝对地址
+            
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux) || RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
             {
-                processor.outputStream.Write(htmlRead.ReadToEnd());
+                using (StreamReader htmlReader = new StreamReader("/var/www/html/index.html"))
+                {
+                    processor.outputStream.Write(htmlReader.ReadToEnd());
+                }
+            }
+            else if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+            {
+                using (StreamReader htmlReader = new StreamReader("E://www//html//index.html"))
+                {
+                    processor.outputStream.Write(htmlReader.ReadToEnd());
+                }
             }
         }
 
